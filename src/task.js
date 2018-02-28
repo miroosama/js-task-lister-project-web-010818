@@ -6,7 +6,14 @@ const Task = (() => {
   return class Task {
     constructor(description, priority) {
       //your code here
+      this.description = this.description.bind(this)
+      this.priority = this.priority.bind(this)
     }
+
+    
+
+
+
   }
 
 })()
